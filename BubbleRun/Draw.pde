@@ -7,9 +7,8 @@ void draw() {
     draw_bttons();
     textSize(40);
     text("BubbleRun", (width/2)/1.9, 40);
-    while (buttons.size() < 2) {
+    while (buttons.size() < 1) {
       new Button(width/2, height/2-50, 80, 50, "Play", 1);
-      new Button(width/2, height/2+5, 80, 50, "Stage", 2);
     }
   }
 
